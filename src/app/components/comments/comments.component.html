@@ -1,0 +1,37 @@
+<div class="container mt-5">
+  <div class="row">
+
+    <div class="col-md-4">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-primary">List of Users
+
+        </li>
+        <li *ngFor="let list of userList" class="list-group-item d-flex justify-content-between text-left">
+          <span class="fa fa-user" (click)="getUserAndComments(list.id)"> {{list.name}} </span>
+
+          <span class="badge badge-primary" (click)="getUserAndComments(list.id)">View Comments</span>
+        </li>
+
+
+      </ul>
+    </div>
+
+
+    <div class="col-md-8">
+        <h6 class="ml-4">Comments by @{{mergedUserAndComments?.username}}</h6>
+      <span class="ml-4 badge badge-info">{{mergedUserAndComments?.name}}, {{mergedUserAndComments?.email}}</span>
+
+      <ul class="timeline">
+        <li *ngFor="let listOfComments of mergedUserAndComments.comments">
+          <a href="#">{{listOfComments?.title}}</a>
+          <a href="#" class="float-right"> </a>
+          <p>{{listOfComments?.body}}</p>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="text-muted mt-5 mb-5 text-center small">Developed by : <a class="text-muted" target="_blank"
+    href="https://www.linkedin.com/in/nandom-gusen-b764b576">Nandom Gusen</a></div>
