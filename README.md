@@ -1,3 +1,8 @@
+# Demo
+The demo for this application can be found here https://stagingapp.live/axel-springer-angular/
+The VueJs version of this application can be obtained from https://github.com/joenan/vuejs-two-endpoints-asynchronous-merge
+The VueJS demo can be found at http://stagingapp.live/axel-springer-vuejs/
+
 # AxelSpringerEs5
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
