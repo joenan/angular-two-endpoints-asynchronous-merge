@@ -1,6 +1,8 @@
 # Demo
 The demo for this application can be found here https://stagingapp.live/axel-springer-angular/
+
 The VueJs version of this application can be obtained from https://github.com/joenan/vuejs-two-endpoints-asynchronous-merge
+
 The VueJS demo can be found at http://stagingapp.live/axel-springer-vuejs/
 
 # AxelSpringerEs5
