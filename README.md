@@ -1,5 +1,5 @@
 # Demo
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+This project was created using Angular 8, TypeScript, JavaScript, ES5/6, HTML5, CSS3 and Bootstrap 4
 
 The demo for this application can be found here https://stagingapp.live/axel-springer-angular/
 
